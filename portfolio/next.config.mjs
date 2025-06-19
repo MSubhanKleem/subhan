@@ -1,6 +1,6 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
-  // Remove any experimental useLightningcss option
+  output: 'export',
   experimental: {
     // Add other experimental features if needed, but not useLightningcss
   },

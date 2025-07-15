@@ -89,7 +89,6 @@ out
 
 # Nuxt.js build / generate output
 .nuxt
-dist
 
 # Gatsby files
 .cache/
@@ -102,7 +101,8 @@ dist
 
 # vuepress v2.x temp and cache directory
 .temp
-.cache
+.cachedist
+
 
 # vitepress build output
 **/.vitepress/dist
@@ -134,3 +134,4 @@ dist
 .yarn/build-state.yml
 .yarn/install-state.gz
 .pnp.*
+./.idea

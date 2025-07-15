@@ -2,7 +2,8 @@
 const nextConfig = {
   output: 'export',
   experimental: {
-    // Add other experimental features if needed, but not useLightningcss
+    //<img src="images/myphoto.jpg" alt="My Photo" width="200" height="200">
+
   },
   eslint: {
     ignoreDuringBuilds: true,
